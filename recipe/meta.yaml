@@ -1,6 +1,6 @@
 {% set name = "flake8-sfs" %}
-{% set version = "0.0.3" %}
-{% set sha256 = "43936ce55c18fec8465b9640825dd27da7bb748f1bb899e8954cd9e3cae05a94" %}
+{% set version = "0.0.4" %}
+{% set sha256 = "81414c8041531e173f3285f2c0552b8e25aaf3b973e17ea33c3b0719385c93b8" %}
 
 package:
   name: {{ name|lower }}
@@ -25,14 +25,14 @@ requirements:
 
 test:
   commands:
-    - "flake8 --version | grep flake8-sfs:"
+    - 'flake8 --version | grep flake8-sfs:'
 
 about:
   home: https://github.com/peterjc/flake8-sfs
   license: MIT
   license_family: MIT
   license_file: LICENSE.rst
-  summary: 'Extension for flake8 for validating Python String Formatting Style (SFS)'
+  summary: Extension for flake8 for validating Python String Formatting Style (SFS)
   dev_url: https://github.com/peterjc/flake8-sfs
   description: |
     For historical reasons, the Python programming language has accumlated
