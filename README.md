@@ -1,11 +1,11 @@
-About flake8-sfs
-================
+About flake8-sfs-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-sfs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/peterjc/flake8-sfs
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-sfs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extension for flake8 for validating Python String Formatting Style (SFS)
 
