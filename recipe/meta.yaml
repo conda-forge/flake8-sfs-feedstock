@@ -1,6 +1,6 @@
 {% set name = "flake8-sfs" %}
-{% set version = "0.0.4" %}
-{% set sha256 = "81414c8041531e173f3285f2c0552b8e25aaf3b973e17ea33c3b0719385c93b8" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "fc33279ff397f1bfc7e8f16c1921264290178f4b1f07464cc2b8d8a98cde11fc" %}
 
 package:
   name: {{ name|lower }}
