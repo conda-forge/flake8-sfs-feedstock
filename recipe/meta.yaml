@@ -1,18 +1,18 @@
 {% set name = "flake8-sfs" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "fc33279ff397f1bfc7e8f16c1921264290178f4b1f07464cc2b8d8a98cde11fc" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "0cab211f805efe2b29a8480fda0d46a8cedba1d45b4dd71b9bd0675804097149" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
